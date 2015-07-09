@@ -7,6 +7,8 @@ I thought I'd maybe expand on this and make a project (not really sure where thi
 
 Update: I moved from one "whoa, it'd be cool if I made this thing" to the next and have decided to make a very inefficient and bad QR compression program.
 
+Update 2: Will brush up on my compression algorithms and add to the encode/decode. Think it'll be pretty fun to reduce as much as possible and compare to what 7-zip, etc., can do.
+
 ##Current usage
 * `./encode` looks for a `input.png` file (your QR code) and compresses it to a `output.txt` file. 
 * `./decode` looks for a `input.txt` file and returns a `output.png`. 
@@ -14,3 +16,7 @@ Update: I moved from one "whoa, it'd be cool if I made this thing" to the next a
 
 ##Compression rate
 Still being reduced. 
+
+
+##Dependencies
+Python Image Library
