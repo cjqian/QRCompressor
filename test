@@ -1,0 +1,4 @@
+./encode
+cp output.txt input.txt
+./decode
+diff input.png output.png

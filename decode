@@ -1,0 +1,9 @@
+#!/bin/bash
+
+python decimalToPng.py "$(< input.txt)"
+
+#shows size of image
+echo "Size of file:"
+stat -f%z output.png
+#opens image
+open output.png

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python pngToDecimal.py "input.png"
+
+#show size of image
+echo "Size of file:"
+stat -f%z output.txt
+
